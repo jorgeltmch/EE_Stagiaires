@@ -1,0 +1,51 @@
+html{
+  font-family: sans-serif;
+  padding-left : 50px;
+  padding-right : 50px;
+  padding-top : 20px;
+
+}
+section{
+  background-color: #c2d7f9;
+  margin-top: 10px;
+  height: 800px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+footer{
+  text-align: center;
+  color: white;
+  background-color: #88b4fc;
+  border-radius: 5px;
+}
+ul {
+  border-radius: 5px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #386fc9;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #4480e2;
+}
+.active {
+    background-color: #4CAF50;
+}

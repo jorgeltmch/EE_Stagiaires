@@ -9,5 +9,7 @@
     <header>
       <?php include("./php/nav.php"); ?>
     </header>
+
   </body>
+<?php include("./php/footer.php"); ?>
 </html>
